@@ -15,6 +15,11 @@
 		98E0D13A16461A6A00375B98 /* ADKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0D13916461A6A00375B98 /* ADKAppDelegate.m */; };
 		98E0D13D16461A6A00375B98 /* ADKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0D13C16461A6A00375B98 /* ADKViewController.m */; };
 		98E0D14016461A6A00375B98 /* ADKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98E0D13E16461A6A00375B98 /* ADKViewController.xib */; };
+		98E0D14816461AC400375B98 /* ADKAudioGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0D14716461AC400375B98 /* ADKAudioGraph.m */; };
+		98E0D14A16461B1400375B98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0D14916461B1400375B98 /* AudioToolbox.framework */; };
+		98E0D14C16462DA900375B98 /* doubledrone.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 98E0D14B16462D6D00375B98 /* doubledrone.m4a */; };
+		98E0D14E1646313A00375B98 /* seamus_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E0D14D1646313A00375B98 /* seamus_small.png */; };
+		98E0D1501646315A00375B98 /* seamus_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 98E0D14F1646315A00375B98 /* seamus_retina.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,21 @@
 		98E0D12916461A6A00375B98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98E0D12B16461A6A00375B98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		98E0D12D16461A6A00375B98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		98E0D13116461A6A00375B98 /* Sligo-Info.plist */ = {isa = PBXFileReference; path = "Sligo-Info.plist"; sourceTree = "<group>"; };
+		98E0D13116461A6A00375B98 /* Sligo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sligo-Info.plist"; sourceTree = "<group>"; };
 		98E0D13316461A6A00375B98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98E0D13516461A6A00375B98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		98E0D13716461A6A00375B98 /* Sligo-Prefix.pch */ = {isa = PBXFileReference; path = "Sligo-Prefix.pch"; sourceTree = "<group>"; };
-		98E0D13816461A6A00375B98 /* ADKAppDelegate.h */ = {isa = PBXFileReference; path = ADKAppDelegate.h; sourceTree = "<group>"; };
+		98E0D13716461A6A00375B98 /* Sligo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sligo-Prefix.pch"; sourceTree = "<group>"; };
+		98E0D13816461A6A00375B98 /* ADKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADKAppDelegate.h; sourceTree = "<group>"; };
 		98E0D13916461A6A00375B98 /* ADKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADKAppDelegate.m; sourceTree = "<group>"; };
-		98E0D13B16461A6A00375B98 /* ADKViewController.h */ = {isa = PBXFileReference; path = ADKViewController.h; sourceTree = "<group>"; };
+		98E0D13B16461A6A00375B98 /* ADKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADKViewController.h; sourceTree = "<group>"; };
 		98E0D13C16461A6A00375B98 /* ADKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADKViewController.m; sourceTree = "<group>"; };
 		98E0D13F16461A6A00375B98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADKViewController.xib; sourceTree = "<group>"; };
+		98E0D14616461AC400375B98 /* ADKAudioGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADKAudioGraph.h; sourceTree = "<group>"; };
+		98E0D14716461AC400375B98 /* ADKAudioGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADKAudioGraph.m; sourceTree = "<group>"; };
+		98E0D14916461B1400375B98 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		98E0D14B16462D6D00375B98 /* doubledrone.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = doubledrone.m4a; sourceTree = "<group>"; };
+		98E0D14D1646313A00375B98 /* seamus_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seamus_small.png; sourceTree = "<group>"; };
+		98E0D14F1646315A00375B98 /* seamus_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seamus_retina.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E0D14A16461B1400375B98 /* AudioToolbox.framework in Frameworks */,
 				98E0D12A16461A6A00375B98 /* UIKit.framework in Frameworks */,
 				98E0D12C16461A6A00375B98 /* Foundation.framework in Frameworks */,
 				98E0D12E16461A6A00375B98 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +62,9 @@
 		98E0D11A16461A6A00375B98 = {
 			isa = PBXGroup;
 			children = (
+				98E0D14F1646315A00375B98 /* seamus_retina.png */,
+				98E0D14D1646313A00375B98 /* seamus_small.png */,
+				98E0D14916461B1400375B98 /* AudioToolbox.framework */,
 				98E0D12F16461A6A00375B98 /* Sligo */,
 				98E0D12816461A6A00375B98 /* Frameworks */,
 				98E0D12616461A6A00375B98 /* Products */,
@@ -81,6 +96,8 @@
 				98E0D13916461A6A00375B98 /* ADKAppDelegate.m */,
 				98E0D13B16461A6A00375B98 /* ADKViewController.h */,
 				98E0D13C16461A6A00375B98 /* ADKViewController.m */,
+				98E0D14616461AC400375B98 /* ADKAudioGraph.h */,
+				98E0D14716461AC400375B98 /* ADKAudioGraph.m */,
 				98E0D13E16461A6A00375B98 /* ADKViewController.xib */,
 				98E0D13016461A6A00375B98 /* Supporting Files */,
 			);
@@ -90,6 +107,7 @@
 		98E0D13016461A6A00375B98 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98E0D14B16462D6D00375B98 /* doubledrone.m4a */,
 				98E0D13116461A6A00375B98 /* Sligo-Info.plist */,
 				98E0D13216461A6A00375B98 /* InfoPlist.strings */,
 				98E0D13516461A6A00375B98 /* main.m */,
@@ -149,8 +167,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E0D14C16462DA900375B98 /* doubledrone.m4a in Resources */,
 				98E0D13416461A6A00375B98 /* InfoPlist.strings in Resources */,
 				98E0D14016461A6A00375B98 /* ADKViewController.xib in Resources */,
+				98E0D14E1646313A00375B98 /* seamus_small.png in Resources */,
+				98E0D1501646315A00375B98 /* seamus_retina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +185,7 @@
 				98E0D13616461A6A00375B98 /* main.m in Sources */,
 				98E0D13A16461A6A00375B98 /* ADKAppDelegate.m in Sources */,
 				98E0D13D16461A6A00375B98 /* ADKViewController.m in Sources */,
+				98E0D14816461AC400375B98 /* ADKAudioGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
